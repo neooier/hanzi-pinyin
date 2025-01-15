@@ -1,21 +1,25 @@
-# Pinyin-Dict
+# Hanzi-Pinyin
+
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?style=flat-square&logo=github)](https://github.com/neooier/hanzi-pinyin.git)
+[![License](https://img.shields.io/github/license/neooier/hanzi-pinyin.svg?style=flat-square)](https://github.com/neooier/hanzi-pinyin/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/hanzi-pinyin.svg?style=flat-square)](https://www.npmjs.com/package/hanzi-pinyin)
 
 [中文](README.md)
 
 ## Description
-`pinyin-dict` is a package that provides functions to query the pinyin (romanization) of Chinese characters. It includes utilities to get both simplified and detailed pinyin representations.
+`hanzi-pinyin` is a package that provides functions to query the pinyin (romanization) of Chinese characters. It includes utilities to get both simplified and detailed pinyin representations.
 
 ## Installation
 You can install the package using npm, pnpm, or yarn:
 
 ```bash
-npm install pinyin-dict
+npm install hanzi-pinyin
 ```
 ```bash
-pnpm add pinyin-dict
+pnpm add hanzi-pinyin
 ```
 ```bash
-yarn add pinyin-dict
+yarn add hanzi-pinyin
 ```
 
 ## Usage
@@ -24,7 +28,7 @@ yarn add pinyin-dict
 You can import the functions from the package as follows:
 
 ```typescript
-import { pinyin, detailedPinyin, all } from 'pinyin-dict';
+import { pinyin, detailedPinyin, all } from 'hanzi-pinyin';
 ```
 
 ### Functions

@@ -1,21 +1,25 @@
-# 汉字拼音查询包 (Pinyin-Dict)
+# 汉字拼音查询包 (Hanzi-Pinyin)
+
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?style=flat-square&logo=github)](https://github.com/neooier/hanzi-pinyin.git)
+[![License](https://img.shields.io/github/license/neooier/hanzi-pinyin.svg?style=flat-square)](https://github.com/neooier/hanzi-pinyin/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/hanzi-pinyin.svg?style=flat-square)](https://www.npmjs.com/package/hanzi-pinyin)
 
 [English](README_en.md)
 
 ## 描述
-`pinyin-dict` 是一个用于查询汉字拼音（罗马化）的包。它提供了获取简体和详细拼音表示的工具。
+`hanzi-pinyin` 是一个用于查询汉字拼音（罗马化）的包。它提供了获取简体和详细拼音表示的工具。
 
 ## 安装
 你可以使用 npm，pnpm 或 yarn 来安装这个包：
 
 ```bash
-npm install pinyin-dict
+npm install hanzi-pinyin
 ```
 ```bash
-pnpm add pinyin-dict
+pnpm add hanzi-pinyin
 ```
 ```bash
-yarn add pinyin-dict
+yarn add hanzi-pinyin
 ```
 
 ## 使用方法
@@ -24,7 +28,7 @@ yarn add pinyin-dict
 你可以按以下方式从包中导入函数：
 
 ```typescript
-import { pinyin, detailedPinyin, all } from 'pinyin-dict';
+import { pinyin, detailedPinyin, all } from 'hanzi-pinyin';
 ```
 
 ### 函数
