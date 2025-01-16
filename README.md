@@ -62,7 +62,7 @@ console.log(dict['汉']); // ['hàn']
 
 ## 数据来源
 
-本包中的数据来源为：[汉文学网](https://zd.hwxnet.com/)
+本包中的数据来源为：[汉语国学](https://www.hanyuguoxue.com/zidian/)
 
 爬取脚本可见 `cmd/fetcher.ts`
 
